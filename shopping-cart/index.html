@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Shopping Cart</h1>
+    </header>
+    <main>
+        <section class="product-list">
+            <h2>Products</h2>
+            <div class="product">
+                <span class="product-name">Product 1</span>
+                <span class="product-price">$10.00</span>
+                <button class="remove-from-cart">Remove from Cart</button>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <span class="product-name">Product 2</span>
+                <span class="product-price">$15.00</span>
+                <button class="remove-from-cart">Remove from Cart</button>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </section>
+        <section class="cart-summary">
+            <h2>Cart Summary</h2>
+            <div class="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <div class="total">
+                <span>Total:</span>
+                <span class="total-price">$0.00</span>
+            </div>
+            <button class="checkout">Checkout</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
